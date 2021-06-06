@@ -1,14 +1,4 @@
 
-/*
-  Theme Name: Folio
-  Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-  Author: BootstrapMade.com
-  Author URL: https://bootstrapmade.com
-*/
-
-/*  General Styling
-/*-----------------------------------------------------------------------------------*/
-
 body {
   background: #ffffff;
   color: #898989;
@@ -92,15 +82,43 @@ nav ul li a {
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
 }
+.fChange li{
+  color: #ffffff;
+}
+.imagecolumn {
+  float: left;
+  width: 43.33%;
+  padding: 20px;
+}
 
-p {
+.imagerow {
+  display: flex;
+  flex-wrap: wrap;
+}
+li{
+  margin: 10px 0;
+  padding: 0;
+  font-size: 17px;
+  color: #999999;
+  font-family: 'Times New Roman', Times, serif;
+}
+p{
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
   color: #999999;
   line-height: 28px;
 }
-
+.fChange{
+  font-size: 17px ;
+  font-family: 'Times New Roman', Times, serif !important;
+}
+.f17{
+  font-size: 17px !important;
+}
+.f15{
+  font-size: 15px !important;
+}
 ::-moz-selection {
   background: dimgrey;
   color: #fff;
@@ -182,11 +200,6 @@ p {
 .mb-30 {
   margin-bottom: 30px;
 }
-
-/*-----------------------------------------------------------------------------------*/
-/*  Navbar Top
-/*-----------------------------------------------------------------------------------*/
-
 nav {
   position: fixed;
   background: black;
@@ -242,17 +255,14 @@ nav ul li a {
   display: none;
   font-size: 23px;
 }
-
+.cBlack{
+  color: #000000;
+}
 .active {
   color: #afafaf;
 }
-
-/*----------------------------------------------------------------------------------*/
-/*  Header
-/*-----------------------------------------------------------------------------------*/
-
 #header {
-  background: url("../images/ahin.jpg") repeat scroll center center / cover;
+  background: url("../images/ahin.png") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
     background-attachment: fixed;
@@ -301,11 +311,6 @@ nav ul li a {
   color: #fff;
   font-size: 15px;
 }
-
-/*-----------------------------------------------------------------------------------*/
-/*  Aout-us
-/*-----------------------------------------------------------------------------------*/
-
 #about {
   width: 100%;
   height: auto;
@@ -338,10 +343,6 @@ nav ul li a {
   margin-bottom: 0;
   text-align: left;
 }
-
-/*-----------------------------------------------------------------------------------*/
-/*   Services
-/*-----------------------------------------------------------------------------------*/
 
 #services {
   background: #f7f7f7;
@@ -405,11 +406,6 @@ nav ul li a {
   display: none;
 }
 
-
-/*-----------------------------------------------------------------------------------*/
-/*  Portfolio
-/*-----------------------------------------------------------------------------------*/
-
 #portfolio {
   position: relative;
   padding-bottom: 50px;
@@ -465,10 +461,6 @@ nav ul li a {
 .portfolio-thumbnail img {
   max-width: 100%;
 }
-
-/*-----------------------------------------------------------------------------------*/
-/*  photog
-/*-----------------------------------------------------------------------------------*/
 
 
 #photog {
@@ -532,17 +524,9 @@ nav ul li a {
 .portfolio-thumbnail img {
   max-width: 100%;
 }
-/*-----------------------------------------------------------------------------------*/
-/*  photog
-/*-----------------------------------------------------------------------------------*/
 
 
-
-/*-----------------------------------------------------------------------------------*/
-/*  Journal
-/*-----------------------------------------------------------------------------------*/
-
-#journal
+#projects
 {
     background: url(../images/wala.jpg);
     background-attachment: fixed;
@@ -611,10 +595,6 @@ nav ul li a {
   line-height: 24px;
 }
 
-/*-----------------------------------------------------------------------------------*/
-/*  Contact
-/*-----------------------------------------------------------------------------------*/
-
 #contact {
   height: auto;
   width: 100%;
@@ -666,10 +646,6 @@ nav ul li a {
   font-weight: 400;
   font-size: 13px;
 }
-
-/*-----------------------------------------------------------------------------------*/
-/*  Footer
-/*-----------------------------------------------------------------------------------*/
 
 #footer {
   background: url(../images/wala.jpg);
