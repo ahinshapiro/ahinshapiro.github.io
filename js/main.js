@@ -79,8 +79,8 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Ahin Shapiro", "Software Developer"],
-      typeSpeed: 80,
+      strings: ["Ahin Shapiro"],
+      typeSpeed: 50,
       loop: true,
     });
   });
